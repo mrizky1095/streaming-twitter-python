@@ -4,11 +4,11 @@ from tweepy import Stream
 import tweepy
 
 # Authenticate
-consumer_key = 'lJAVZF30ipVvo5Egd8efDlddh'
-consumer_secret = 'IdqGaCKXZAdWBDI70pZqlH0xKkTvGC9Uhp4xqgMc8YILw2PMMW'
+consumer_key= 'xxxxxxxxxxxxxxxxxx'
+consumer_secret= 'xxxxxxxxxxxxxxxxxxxx'
 
-access_token = '150942159-sMWrknlZgxloS9k2GsJaMzXJfWGKXnulvZbZIkPT'
-access_token_secret = 'MaVPLYlT7cfXCNiUBGM37bMTJbkiGmx6IYsIbUgH5KmjI'
+access_token='xxxxxxxxxxxxxxxxxxx'
+access_token_secret='xxxxxxxxxxxxxxxxxxx'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
@@ -39,4 +39,5 @@ if __name__ == '__main__':
     # stream.filter(track=['myxl', 'xl'])
 
     # stream by keyword & user
-    stream.filter(follow=['82552414'], track=['myxl', 'xl'])
+    # languages : filter bahasa indonesia
+    stream.filter(follow=['82552414'], track=['myxl', 'xl', 'xl axiata', 'axiata'])
