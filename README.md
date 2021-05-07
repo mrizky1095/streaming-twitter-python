@@ -3,4 +3,4 @@ streaming twitter python
 
 <h2> Install : </h2>
 
-</strong> pip intall tweepy </strong>
+</strong> pip install tweepy </strong>
